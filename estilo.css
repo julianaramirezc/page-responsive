@@ -1,0 +1,445 @@
+body {
+    background: #e6e6e6;
+    color: #171717;
+    margin: 0;
+}
+
+header {
+    background: #fff;
+}
+
+@media all and (max-width: 600px) {
+
+    .button_dark {
+
+        width: 250px;
+        /*height: 56px;*/
+        background: #171717;
+
+        padding: 16px 19.23px;
+        border: 2px solid #171717;
+        box-sizing: border-box;
+        font-family: Gotham;
+        font-size: 10px;
+        text-align: center;
+        letter-spacing: 3px;
+        text-decoration: none;
+        color: #fff;
+        line-height: 16px;
+
+        margin: 35px 0 16px 0;
+
+    }
+
+    .button_dark:hover {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .button_light:hover {
+        text-decoration: none;
+        color: #171717;
+    }
+
+    .button_light {
+        width: 250px;
+        /*height: 56px;*/
+        padding: 16px 19.23px;
+        border: 2px solid #171717;
+        box-sizing: border-box;
+        font-family: Gotham;
+        font-size: 10px;
+        text-align: center;
+        letter-spacing: 3px;
+        text-decoration: none;
+        color: #000;
+    }
+
+    .containerIcons {
+        display: flex;
+    }
+
+    .containerBox div:nth-child(2) {
+        margin: 0 8px;
+    }
+
+    .containerButton {
+        display: flex;
+        justify-self: center;
+    }
+
+    .column-box-new {
+        grid-column: 4/5;
+    }
+
+    .columns-center {
+        grid-column: 2/4;
+    }
+
+    .columns-organized {
+        grid-column: 2/4;
+    }
+
+    .columns-center_movile {
+        grid-column: 2/4;
+    }
+
+    .column-button-dark {
+        grid-column: 1/5;
+    }
+
+    .column-button-light {
+        grid-column: 1/5;
+    }
+
+    .containerNav {
+        display: none;
+    }
+
+
+    .containerBox {
+        display: flex;
+        justify-self: center;
+    }
+
+
+    .dot {
+        width: 5px;
+        height: 5px;
+        background-color: #DE2B2B;
+        border-radius: 3px;
+        margin-bottom: 32px;
+        justify-self: center;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 1vw;
+        padding: 0 2%;
+    }
+
+    .icon_home {
+        display: none;
+    }
+
+    .icon {
+        text-decoration: none;
+
+    }
+
+    .icon_search {
+
+        justify-self: end;
+
+    }
+
+    .icon_list {
+        justify-self: end;
+    }
+
+
+    .img_reloj {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+
+    .miniBox {
+        width: 47px;
+        font-family: Gotham;
+        font-size: 10px;
+        border: 1px solid #171717;
+        box-sizing: border-box;
+        border-radius: 3px;
+        text-align: center;
+        line-height: 12px;
+    }
+
+    .nav {
+        line-height: 35pt;
+    }
+
+    .price_text {
+        font-size: 14px;
+        margin-bottom: 77px;
+        justify-self: center;
+    }
+
+    .rectangle {
+        background-color: #DE2B2B;
+        width: 42px;
+        height: 17px;
+        color: #fff;
+        font-family: Gotham;
+        font-size: 10px;
+        line-height: 12px;
+        border-radius: 3px;
+        padding: 3px;
+        text-align: center;
+        justify-self: end;
+        margin-top: 26px;
+    }
+
+    .subText {
+        font-family: Gotham;
+        font-size: 10px;
+        letter-spacing: 3px;
+        justify-self: center;
+        padding-top: 71px;
+
+    }
+
+    .third-column-centered {
+        grid-column: 3/4;
+    }
+
+    .title1 {
+        font-family: Gotham;
+        font-size: 24px;
+        font-weight: bold;
+        justify-self: center;
+        padding-top: 20px;
+    }
+
+    .title2 {
+        font-family: Galaxie Copernicus;
+        font-size: 24px;
+        font-style: italic;
+        margin-bottom: 44px;
+        justify-self: center;
+    }
+
+    .treeBox {
+        background-color: #171717;
+        color: white;
+    }
+
+}
+
+@media (min-width: 601px) {
+
+    .button_dark {
+        width: 250px;
+        background: #171717;
+        padding: 16px 19.23px;
+        border: 2px solid #171717;
+        box-sizing: border-box;
+        font-family: Gotham;
+        font-size: 10px;
+        text-align: center;
+        letter-spacing: 3px;
+        text-decoration: none;
+        color: #fff;
+        line-height: 16px;
+    }
+
+    .button_dark:hover {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .button_light:hover {
+        text-decoration: none;
+        color: #171717;
+    }
+
+    .button_light {
+        width: 250px;
+        padding: 16px 19.23px;
+        border: 2px solid #171717;
+        box-sizing: border-box;
+        font-family: Gotham;
+        font-size: 10px;
+        text-align: center;
+        letter-spacing: 3px;
+        text-decoration: none;
+        color: #000;
+
+    }
+
+    .column-box-new {
+        grid-column: 12/13;
+    }
+
+    .columns-center {
+        grid-column: 5/9;
+    }
+
+    .columns-center_movile {
+        grid-column: 1/2;
+    }
+
+    .containerNav {
+        display: flex;
+    }
+
+    .containerIcons {
+        display: flex;
+        justify-self: end;
+    }
+
+    .containerNav li:nth-child(2) {
+        margin: 0 37px;
+    }
+
+    .containerBox {
+        display: flex;
+        order: 1;
+        align-self: center;
+    }
+
+    .containerBox div:nth-child(2) {
+        margin: 0 8px;
+    }
+
+    .columns-organized {
+        grid-column: 1/3;
+    }
+
+    .column-button-dark {
+        grid-column: 4/7;
+        justify-self: right;
+    }
+
+    .column-button-light {
+        grid-column: 7/10;
+    }
+
+    .containerButton {
+        margin-top: 35px;
+        display: flex;
+    }
+
+    .dot {
+        width: 5px;
+        height: 5px;
+        background-color: #DE2B2B;
+        border-radius: 3px;
+        margin-bottom: 32px;
+        justify-self: center;
+    }
+
+    .four-column-centered {
+        grid-column: 4/5;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-gap: 1vw;
+        padding: 0 5%;
+    }
+
+    .items_nav {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-gap: 1vw;
+        padding: 0 5%;
+    }
+
+    .img_reloj {
+        width: 100%;
+
+    }
+
+    .item {
+        TEXT-DECORATION: none;
+
+        font-family: Gotham;
+        font-size: 10px;
+
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+
+    .icon_list_hide {
+        display: none;
+    }
+
+    .icon_search_display {
+        margin-right: 60px;
+    }
+
+    .third-column-centered {
+        grid-column: 3/4;
+    }
+
+    .miniBox {
+        width: 47px;
+        font-family: Gotham;
+        font-size: 10px;
+        border: 1px solid #171717;
+        box-sizing: border-box;
+        border-radius: 3px;
+        text-align: center;
+        line-height: 12px;
+    }
+
+    .nav {
+        line-height: 35pt;
+    }
+
+    .order_image {
+        order: 2;
+    }
+
+    .two-columns-center {
+        grid-column: 6/8;
+    }
+
+    .price_text {
+        font-size: 14px;
+        margin-bottom: 77px;
+        justify-self: center;
+    }
+
+    .rectangle {
+        background-color: #DE2B2B;
+        width: 42px;
+        height: 17px;
+        color: #fff;
+        font-family: Gotham;
+        font-size: 10px;
+        line-height: 12px;
+        border-radius: 3px;
+        padding: 3px;
+        text-align: center;
+        justify-self: end;
+        margin-top: 47px;
+
+    }
+
+    .subText {
+        font-family: Gotham;
+        font-size: 10px;
+        letter-spacing: 3px;
+        justify-self: center;
+        padding-top: 71px;
+
+    }
+
+    .third-column-centered {
+        grid-column: 12/13;
+    }
+
+    .title1 {
+        font-family: Gotham;
+        font-size: 48px;
+        font-weight: bold;
+        justify-self: center;
+        padding-top: 20px;
+    }
+
+    .title2 {
+        font-family: Galaxie Copernicus;
+        font-size: 48px;
+        font-style: italic;
+        margin-bottom: 44px;
+        justify-self: center;
+    }
+
+    .treeBox {
+        background-color: #171717;
+        color: white;
+    }
+}
